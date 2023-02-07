@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Paint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">Add A Sketch</div>
+    <div class="container">
+      <div class="sidebar">
+        <input type="color" class="select-color" />
+        <div class="select-btn">
+          <button id="color-more" class="btn active">Color mode</button>
+          <button id="rainbow" class="btn">Rainbow mode</button>
+          <button id="eraser" class="btn">Eraser</button>
+          <button id="clear" class="btn">Clear</button>
+        </div>
+        <div class="range">
+          <p class="input-value" style="font-weight: bold">16 X 16</p>
+          <input
+            class="input-range"
+            type="range"
+            min="1"
+            max="100"
+            value="16"
+          />
+        </div>
+      </div>
+      <div class="content"></div>
+      <!-- <div id="box">Apple, Pear, Banana</div> -->
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
